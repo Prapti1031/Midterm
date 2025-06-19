@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prapti Patel</title>
+
+    <link rel="stylesheet" href="/css/nav-style.css" />
+    <link rel="stylesheet" href="/css/grid-style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="left-section">
+        <ul>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+              >HTML</a
+            >
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              >JavaScript</a
+            >
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right-section">
+        <ul>
+          <li><button data-bs-theme-value="dark">Dark</button></li>
+          <li><button data-bs-theme-value="light">Light</button></li>
+          <li><button>Contact Me</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <!--row one- left column-->
+
+      <div class="grid1">
+        1
+        <p>
+          Sqaure calculate using closure. <br />Result = base<sup>2</sup><br />
+          (e.g., 5<sup>2</sup> = 25).
+        </p>
+      </div>
+      <!--row one's -right column-->
+      <div class="grid2">
+        2
+        <input
+          type="number"
+          id="numberInput"
+          placeholder="Enter a Number"
+          style="font-size: 2rem"
+        />
+      </div>
+
+      <!--row two- right column-->
+      <div class="grid4">4</div>
+      <button onclick="Square()">Enter</button>
+
+      <!--row two's - left column-->
+      <div class="grid5">
+        5
+        <div id="resultScreen" style="background-color: #332703"></div>
+      </div>
+    </div>
+  </body>
+</html>
